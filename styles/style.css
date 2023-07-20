@@ -20,9 +20,26 @@ body {
     border-radius: 3px;
 }
 
+.primary-title {
+    color: #181818;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.primary-description {
+    color: #474747;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
 /* Navigation styles */
 header {
     background-color: #FFF8F3;
+    /* background-image: url('../images/red-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; */
 }
 
 .navigation-panel {
@@ -91,8 +108,63 @@ header {
     padding: 0px 110px;
 }
 
+/* About Me Styles */
+.info-title {
+    color: var(--dark-03, #757575);
+    font-weight: 400;
+    font-size: 14px;
+}
 
+.info-description {
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.about-me {
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 20px 120px;
+    margin: 40px 120px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* What I Do styles */
+.what-i-do {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Experience styles */
+.experience-item {
+    width: 160px;
+    height: 220px;
+    padding: 20px;
+    /* border: 1px solid tomato; */
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.experience-logo {
+    width: 30px;
+}
+
+.experience-title {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 120px;
+}
 
 
 
@@ -123,5 +195,33 @@ header {
         align-items: center;
         padding: 10px;
         text-align: center;
+    }
+
+    /* About Me */
+    .about-me {
+        text-align: center;
+        background-color: #FFF8F3;
+        padding: 10px;
+        margin: 10px
+    }
+
+    .info-container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* Experience */
+    .experience-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .experience-item {
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+        /* border: 1px solid tomato; */
+        box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
     }
 }
