@@ -197,6 +197,22 @@ header {
     margin: 20px 100px;
 }
 
+footer {
+    color: white;
+    background-color: #0A0826;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-paragraph {
+    color: white;
+}
+
 
 
 
